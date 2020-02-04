@@ -8,7 +8,8 @@ namespace ConditionalStatementsNhanDuong
         {
             int score;
             Console.WriteLine("Hello, this is Nhan Duong!");
-            Console.WriteLine("Please tell me what total score out of 100 you are expecting to get in ISM 4300? (Integer input only)");
+            Console.WriteLine("Please tell me what total score out of 100 you are expecting to get in ISM 4300! (Integer input only)");
+            // Parsing string input to integer score
             Int32.TryParse(Console.ReadLine(), out score);
             if(score >= 98 && score <= 100)
             {
